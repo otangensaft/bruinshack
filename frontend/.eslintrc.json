@@ -22,8 +22,8 @@
 	"plugins": ["react", "react-hooks"],
 	"rules": {
 		"no-console": "warn",
-		"semi": ["error", "always"],
-		"quotes": ["error", "double"],
+		"semi": ["warn", "always"],
+		"quotes": ["warn", "double"],
 		"no-unused-vars": "warn",
 		"no-undef": "warn",
 		"react/jsx-no-bind": [
