@@ -1,0 +1,12 @@
+{
+	"apartments": [
+		{
+			"id": 1,
+			"name": "Glendon"
+		},
+		{
+			"id": 2,
+			"name": "Rochester"
+		}
+	]
+}

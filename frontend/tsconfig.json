@@ -23,7 +23,7 @@
 		"**/*.ts",
 		"**/*.tsx",
 		"src/pages/index.tsx",
-		"src/components/People.tsx"
+		"src/components/ApartmentsList.tsx"
 	],
 	"exclude": ["node_modules"]
 }
