@@ -13,10 +13,10 @@ const Home = () => {
 					layout="fill"
 				/>
 				<div className="absolute inset-0 flex flex-col items-start justify-center text-left ml-20">
-					<h1 className="text-4xl font-bold text-white mb-4">
+					<h1 className="text-5xl font-bold text-white mb-4">
 						Bruinshack
 					</h1>
-					<h2 className="text-white mb-8">
+					<h2 className="text-2xl text-white mb-8">
 						UCLA Apartment Search, Made Easy
 					</h2>
 					<div className="flex space-x-4">
@@ -29,7 +29,9 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-			<ImageSlider />
+			<div className="my-20">
+				<ImageSlider />
+			</div>
 		</>
 	);
 };

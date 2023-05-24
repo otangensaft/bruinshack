@@ -20,11 +20,13 @@ const NavBar = () => {
 					</Link>
 				</li>
 				<li>
-					<Link
-						href="#"
-						className="text-white mx-4 hover:text-gray-300"
-					>
-						List Your Apt
+					<Link href="#" className="mx-4 hover:text-gray-300">
+						<div
+							style={{ backgroundColor: "#F6DA93" }}
+							className="rounded-full p-2 inline-flex items-center w-auto"
+						>
+							<span className="text-black">List Your Apt</span>
+						</div>
 					</Link>
 				</li>
 			</ul>
