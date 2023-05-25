@@ -6,9 +6,9 @@ import { useCreateApartments } from "@/api/apartments/createApartments";
 const ApartmentsList = () => {
 	const apartmentsQuery = useApartments();
 
-	if (apartmentsQuery.isLoading) return "Loading...";
+	// if (apartmentsQuery.isLoading) return "Loading...";
 
-	if (apartmentsQuery.error) return "An error has occurred";
+	// if (apartmentsQuery.error) return "An error has occurred";
 
 	if (apartmentsQuery.isSuccess) {
 		return (

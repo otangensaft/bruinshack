@@ -1,3 +1,4 @@
+import ApartmentsList from "@/components/apartments/ApartmentsList";
 import ImageSlider from "@/components/main/ImageSlider";
 import Image from "next/image";
 import bruinShack from "../../public/bruinShack.png";
