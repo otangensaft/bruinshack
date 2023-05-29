@@ -7,8 +7,8 @@ import Script from 'next/script'
 
 import { useEffect } from "react";
 
-export default function App({ Component, pageProps, router }) {
-	const queryClient = new QueryClient();
+const App = ({ Component, pageProps, router }) => {
+
 
 	// Used to Handle Google Analytics
 	useEffect(() => {
@@ -25,6 +25,8 @@ export default function App({ Component, pageProps, router }) {
 			router.events.off("routeChangeComplete", handleRouteChange);
 		};
 	}, [router.events]);
+
+	const queryClient = new QueryClient();
 
 	return (
 		<>
@@ -53,3 +55,5 @@ export default function App({ Component, pageProps, router }) {
 		
 	);
 }
+
+export default App
