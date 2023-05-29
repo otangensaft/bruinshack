@@ -5,4 +5,7 @@ app.get('/api/', (req, res) => {
   res.send("Hello Luke I am your father")
 })
 
-app.listen(3000)
+// Initialize server
+app.listen(5000, () => {
+  console.log("Running on port 5000.");
+});
